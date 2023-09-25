@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import negativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-negative-binomial/tags). For example,
+
+```javascript
 import negativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { NegativeBinomial, cdf, kurtosis, logpmf, mean, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial@v0.1.0-esm/index.mjs';
+import { NegativeBinomial, cdf, kurtosis, logpmf, mean, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial@esm/index.mjs';
 ```
 
 #### negativeBinomial
@@ -133,7 +138,7 @@ var y = dist.pmf( 4.0 );
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import negativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial@v0.1.0-esm/index.mjs';
+import negativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial@esm/index.mjs';
 
 console.log( objectKeys( negativeBinomial ) );
 
