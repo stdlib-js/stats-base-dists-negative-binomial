@@ -35,20 +35,32 @@ limitations under the License.
 
 > Negative binomial distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-negative-binomial
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import negativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { NegativeBinomial, cdf, kurtosis, logpmf, mean, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial@deno/mod.js';
+var negativeBinomial = require( '@stdlib/stats-base-dists-negative-binomial' );
 ```
 
 #### negativeBinomial
@@ -106,7 +118,7 @@ The namespace contains a constructor function for creating a [negative binomial]
 <!-- </toc> -->
 
 ```javascript
-var NegativeBinomial = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial' ).NegativeBinomial;
+var NegativeBinomial = require( '@stdlib/stats-base-dists-negative-binomial' ).NegativeBinomial;
 
 var dist = new NegativeBinomial( 4.0, 0.2 );
 
@@ -127,10 +139,43 @@ var y = dist.pmf( 4.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import negativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial@deno/mod.js';
+var negativeBinomial = require( '@stdlib/stats-base-dists-negative-binomial' );
 
-console.log( objectKeys( negativeBinomial ) );
+/*
+* Let's take an example of flipping a biased coin until getting 5 heads.
+* This situation can be modeled using a Negative Binomial distribution with r = 5 and p = 1/2.
+*/
+
+var r = 5.0;
+var p = 1/2;
+
+// Mean can be used to calculate the average number of trials needed to get 5 heads:
+console.log( negativeBinomial.mean( r, p ) );
+// => 5
+
+// PMF can be used to calculate the probability of getting heads on a specific trial (say on the 8th trial):
+console.log( negativeBinomial.pmf( 8, r, p ) );
+// => ~0.06
+
+// CDF can be used to calculate the probability up to a certain number of trials (say up to 8 trials):
+console.log( negativeBinomial.cdf( 8, r, p ) );
+// => ~0.867
+
+// Quantile can be used to calculate the number of trials at which you can be 80% confident that the actual number will not exceed:
+console.log( negativeBinomial.quantile( 0.8, r, p ) );
+// => 7
+
+// Standard deviation can be used to calculate the measure of the spread of trials around the mean:
+console.log( negativeBinomial.stdev( r, p ) );
+// => ~3.162
+
+// Skewness can be used to calculate the asymmetry of the distribution of trials:
+console.log( negativeBinomial.skewness( r, p ) );
+// => ~0.949
+
+// MGF can be used for more advanced statistical analyses and generating moments of the distribution:
+console.log( negativeBinomial.mgf( 0.5, r, p ) );
+// => ~2277.597
 ```
 
 </section>
@@ -154,7 +199,7 @@ console.log( objectKeys( negativeBinomial ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -163,6 +208,11 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
+
+## License
+
+See [LICENSE][stdlib-license].
+
 
 ## Copyright
 
@@ -210,33 +260,35 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [esm-readme]: https://github.com/stdlib-js/stats-base-dists-negative-binomial/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base-dists-negative-binomial/blob/main/branches.md
 
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-negative-binomial/main/LICENSE
+
 [negative-binomial-distribution]: https://en.wikipedia.org/wiki/Negative_binomial_distribution
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/negative-binomial/ctor]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-ctor/tree/deno
+[@stdlib/stats/base/dists/negative-binomial/ctor]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-ctor
 
-[@stdlib/stats/base/dists/negative-binomial/kurtosis]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-kurtosis/tree/deno
+[@stdlib/stats/base/dists/negative-binomial/kurtosis]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-kurtosis
 
-[@stdlib/stats/base/dists/negative-binomial/mean]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-mean/tree/deno
+[@stdlib/stats/base/dists/negative-binomial/mean]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-mean
 
-[@stdlib/stats/base/dists/negative-binomial/mode]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-mode/tree/deno
+[@stdlib/stats/base/dists/negative-binomial/mode]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-mode
 
-[@stdlib/stats/base/dists/negative-binomial/skewness]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-skewness/tree/deno
+[@stdlib/stats/base/dists/negative-binomial/skewness]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-skewness
 
-[@stdlib/stats/base/dists/negative-binomial/stdev]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-stdev/tree/deno
+[@stdlib/stats/base/dists/negative-binomial/stdev]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-stdev
 
-[@stdlib/stats/base/dists/negative-binomial/variance]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-variance/tree/deno
+[@stdlib/stats/base/dists/negative-binomial/variance]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-variance
 
-[@stdlib/stats/base/dists/negative-binomial/cdf]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-cdf/tree/deno
+[@stdlib/stats/base/dists/negative-binomial/cdf]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-cdf
 
-[@stdlib/stats/base/dists/negative-binomial/logpmf]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-logpmf/tree/deno
+[@stdlib/stats/base/dists/negative-binomial/logpmf]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-logpmf
 
-[@stdlib/stats/base/dists/negative-binomial/mgf]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-mgf/tree/deno
+[@stdlib/stats/base/dists/negative-binomial/mgf]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-mgf
 
-[@stdlib/stats/base/dists/negative-binomial/pmf]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-pmf/tree/deno
+[@stdlib/stats/base/dists/negative-binomial/pmf]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-pmf
 
-[@stdlib/stats/base/dists/negative-binomial/quantile]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-quantile/tree/deno
+[@stdlib/stats/base/dists/negative-binomial/quantile]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-quantile
 
 <!-- </toc-links> -->
 
