@@ -51,6 +51,7 @@
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/array-float64": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/assert-is-number": "^0.2.2",
@@ -68,7 +69,6 @@
     "@stdlib/math-base-assert-is-nonnegative-integer": "^0.2.1",
     "@stdlib/math-base-special-abs": "^0.2.2",
     "@stdlib/math-base-special-betainc": "^0.2.2",
-    "@stdlib/math-base-special-ceil": "^0.2.2",
     "@stdlib/math-base-special-erfcinv": "^0.2.3",
     "@stdlib/math-base-special-exp": "^0.2.4",
     "@stdlib/math-base-special-expm1": "^0.2.3",
@@ -81,6 +81,7 @@
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/math-base-special-round": "^0.3.0",
     "@stdlib/math-base-special-sqrt": "^0.2.2",
+    "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
     "@stdlib/random-base-uniform": "^0.2.1",
     "@stdlib/string-format": "^0.2.2",

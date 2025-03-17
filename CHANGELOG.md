@@ -4,22 +4,324 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-30)
+## Unreleased (2025-03-17)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="stats-base-dists-negative-binomial-cdf-unreleased">
+
+#### [@stdlib/stats/base/dists/negative-binomial/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/negative-binomial/cdf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-negative-binomial-ctor-unreleased">
+
+#### [@stdlib/stats/base/dists/negative-binomial/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/negative-binomial/ctor)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-negative-binomial-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/negative-binomial/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/negative-binomial/kurtosis)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-negative-binomial-logpmf-unreleased">
+
+#### [@stdlib/stats/base/dists/negative-binomial/logpmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/negative-binomial/logpmf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-negative-binomial-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/negative-binomial/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/negative-binomial/mean)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-negative-binomial-mgf-unreleased">
+
+#### [@stdlib/stats/base/dists/negative-binomial/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/negative-binomial/mgf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-negative-binomial-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/negative-binomial/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/negative-binomial/mode)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-negative-binomial-pmf-unreleased">
+
+#### [@stdlib/stats/base/dists/negative-binomial/pmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/negative-binomial/pmf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-negative-binomial-quantile-unreleased">
+
+#### [@stdlib/stats/base/dists/negative-binomial/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/negative-binomial/quantile)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-negative-binomial-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/negative-binomial/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/negative-binomial/skewness)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-negative-binomial-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/negative-binomial/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/negative-binomial/stdev)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-negative-binomial-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/negative-binomial/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/negative-binomial/variance)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#4980](https://github.com/stdlib-js/stdlib/issues/4980)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   GK Bishnoi
+-   Karan Anand
 -   Philipp Burckhardt
 
 </section>
@@ -32,6 +334,9 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
+-   [`39f6970`](https://github.com/stdlib-js/stdlib/commit/39f69705826500421b402f732d6a16e204f54dca) - **bench:** refactor random number generation in `stats/base/dists/negative-binomial` [(#5193)](https://github.com/stdlib-js/stdlib/pull/5193) _(by GK Bishnoi)_
+-   [`f75a0ce`](https://github.com/stdlib-js/stdlib/commit/f75a0cef6a3112b166dba04c13bada9763cec350) - **chore:** use excess kurtosis consistently _(by Philipp Burckhardt)_
 -   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
 
 </details>
