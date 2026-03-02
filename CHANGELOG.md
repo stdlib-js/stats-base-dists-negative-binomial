@@ -2,6 +2,54 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-02)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`29f6a68`](https://github.com/stdlib-js/stdlib/commit/29f6a6888d2d653afc0f7ea8d81bb1872fb42780) - **bench:** refactor to use string interpolation in `stats/base/dists/negative-binomial` [(#10101)](https://github.com/stdlib-js/stdlib/pull/10101) _(by Shubham, Philipp Burckhardt)_
+-   [`6c08cf3`](https://github.com/stdlib-js/stdlib/commit/6c08cf3af7e3b88320f7bb153220328a0872c64e) - **bench:** refactor to use string interpolation in `stats/base/dists/negative-binomial` [(#10446)](https://github.com/stdlib-js/stdlib/pull/10446) _(by Vishal Gaikwad)_
+-   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Shubham
+-   Vishal Gaikwad
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.2">
+
+## 0.2.2 (2026-02-08)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2026-01-30)
