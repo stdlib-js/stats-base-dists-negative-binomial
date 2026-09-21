@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-09-21)
+
+<section class="features">
+
+### Features
+
+-   [`ff9f24a`](https://github.com/stdlib-js/stdlib/commit/ff9f24a58f6622074b4ea9eb893cdb8d1526b74a) - add C implementation for `stats/base/dists/negative-binomial/logpmf` [(#10132)](https://github.com/stdlib-js/stdlib/pull/10132)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,12 @@
 
 <details>
 
+-   [`d3eaad3`](https://github.com/stdlib-js/stdlib/commit/d3eaad35f633c731ce8112190d74bb2a7577e1e8) - **chore:** clean-up [(#15039)](https://github.com/stdlib-js/stdlib/pull/15039) _(by Philipp Burckhardt, Athan Reines)_
+-   [`692d479`](https://github.com/stdlib-js/stdlib/commit/692d47949ba67ee1df2b748f60b0a85a206e96e3) - **test:** migrate `stats/base/dists/negative-binomial/stdev` to ULP-based assertions [(#14790)](https://github.com/stdlib-js/stdlib/pull/14790) _(by Athan Reines)_
+-   [`ff9f24a`](https://github.com/stdlib-js/stdlib/commit/ff9f24a58f6622074b4ea9eb893cdb8d1526b74a) - **feat:** add C implementation for `stats/base/dists/negative-binomial/logpmf` [(#10132)](https://github.com/stdlib-js/stdlib/pull/10132) _(by Nirmal Jyoti Biswas, Philipp Burckhardt)_
+-   [`e1f01dd`](https://github.com/stdlib-js/stdlib/commit/e1f01ddf52914cccf8b3916843fb3626c6f8c5f9) - **test:** migrate `stats/base/dists/negative-binomial/cdf` to ULP-based assertions [(#14373)](https://github.com/stdlib-js/stdlib/pull/14373) _(by Philipp Burckhardt)_
+-   [`7c88159`](https://github.com/stdlib-js/stdlib/commit/7c88159a9896362c2408622adff00be3eef14420) - **test:** migrate `stats/base/dists/negative-binomial/logpmf` to ULP-based assertions [(#14199)](https://github.com/stdlib-js/stdlib/pull/14199) _(by Athan Reines)_
+-   [`f6d52ce`](https://github.com/stdlib-js/stdlib/commit/f6d52ce8ab90649eb6c7d2802b003e2b6773949e) - **test:** migrate `stats/base/dists/negative-binomial/pmf` to ULP-based assertions [(#14101)](https://github.com/stdlib-js/stdlib/pull/14101) _(by Athan Reines)_
 -   [`10ee0a5`](https://github.com/stdlib-js/stdlib/commit/10ee0a56ed60ae3d051ff0426b8e203a29c44cdc) - **chore:** clean-up [(#13754)](https://github.com/stdlib-js/stdlib/pull/13754) _(by Philipp Burckhardt)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`13be950`](https://github.com/stdlib-js/stdlib/commit/13be9508ead024cad29c0426a02339b942fd92f5) - **chore:** propagate `Uint64.from` and decimal-literal fixes to siblings [(#12954)](https://github.com/stdlib-js/stdlib/pull/12954) _(by Philipp Burckhardt)_
@@ -35,9 +51,10 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Nirmal Jyoti Biswas
 -   Philipp Burckhardt
 -   Shubham
 -   Vishal Gaikwad
