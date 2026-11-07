@@ -4,17 +4,32 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-11-07)
 
 <section class="features">
 
 ### Features
 
+-   [`5fc7eb7`](https://github.com/stdlib-js/stdlib/commit/5fc7eb73c70d2d792732b1de36699fb754b41b6c) - add C implementation for `stats/base/dists/negative-binomial/quantile` [(#14730)](https://github.com/stdlib-js/stdlib/pull/14730)
+-   [`27712bc`](https://github.com/stdlib-js/stdlib/commit/27712bc66f4cf30f6f378b83e40a0b2c771caeee) - add C implementation for `stats/base/dists/negative-binomial/pmf` [(#14738)](https://github.com/stdlib-js/stdlib/pull/14738)
+-   [`6f96b57`](https://github.com/stdlib-js/stdlib/commit/6f96b57e6ce6f2e1ca0ca3b4a8f0fb3a67a58e2a) - add C implementation for `stats/base/dists/negative-binomial/cdf` [(#14729)](https://github.com/stdlib-js/stdlib/pull/14729)
 -   [`ff9f24a`](https://github.com/stdlib-js/stdlib/commit/ff9f24a58f6622074b4ea9eb893cdb8d1526b74a) - add C implementation for `stats/base/dists/negative-binomial/logpmf` [(#10132)](https://github.com/stdlib-js/stdlib/pull/10132)
 
 </section>
 
 <!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 3 issues were closed in this release:
+
+[#3760](https://github.com/stdlib-js/stdlib/issues/3760), [#3766](https://github.com/stdlib-js/stdlib/issues/3766), [#3767](https://github.com/stdlib-js/stdlib/issues/3767)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -22,6 +37,12 @@
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`9222a42`](https://github.com/stdlib-js/stdlib/commit/9222a42e1a799237379573c2a3a604159a56abe4) - **test:** migrate `stats/base/dists/negative-binomial/variance` to ULP-based assertions [(#15954)](https://github.com/stdlib-js/stdlib/pull/15954) _(by Athan Reines)_
+-   [`2861fe4`](https://github.com/stdlib-js/stdlib/commit/2861fe430548bb441cce624fcfe35a66059c5fba) - **chore:** clean-up [(#16062)](https://github.com/stdlib-js/stdlib/pull/16062) _(by Philipp Burckhardt)_
+-   [`5fc7eb7`](https://github.com/stdlib-js/stdlib/commit/5fc7eb73c70d2d792732b1de36699fb754b41b6c) - **feat:** add C implementation for `stats/base/dists/negative-binomial/quantile` [(#14730)](https://github.com/stdlib-js/stdlib/pull/14730) _(by Philipp Burckhardt, Karan Anand)_
+-   [`27712bc`](https://github.com/stdlib-js/stdlib/commit/27712bc66f4cf30f6f378b83e40a0b2c771caeee) - **feat:** add C implementation for `stats/base/dists/negative-binomial/pmf` [(#14738)](https://github.com/stdlib-js/stdlib/pull/14738) _(by Philipp Burckhardt, Karan Anand)_
+-   [`6f96b57`](https://github.com/stdlib-js/stdlib/commit/6f96b57e6ce6f2e1ca0ca3b4a8f0fb3a67a58e2a) - **feat:** add C implementation for `stats/base/dists/negative-binomial/cdf` [(#14729)](https://github.com/stdlib-js/stdlib/pull/14729) _(by Philipp Burckhardt, Karan Anand)_
 -   [`d3eaad3`](https://github.com/stdlib-js/stdlib/commit/d3eaad35f633c731ce8112190d74bb2a7577e1e8) - **chore:** clean-up [(#15039)](https://github.com/stdlib-js/stdlib/pull/15039) _(by Philipp Burckhardt, Athan Reines)_
 -   [`692d479`](https://github.com/stdlib-js/stdlib/commit/692d47949ba67ee1df2b748f60b0a85a206e96e3) - **test:** migrate `stats/base/dists/negative-binomial/stdev` to ULP-based assertions [(#14790)](https://github.com/stdlib-js/stdlib/pull/14790) _(by Athan Reines)_
 -   [`ff9f24a`](https://github.com/stdlib-js/stdlib/commit/ff9f24a58f6622074b4ea9eb893cdb8d1526b74a) - **feat:** add C implementation for `stats/base/dists/negative-binomial/logpmf` [(#10132)](https://github.com/stdlib-js/stdlib/pull/10132) _(by Nirmal Jyoti Biswas, Philipp Burckhardt)_
@@ -51,9 +72,10 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Nirmal Jyoti Biswas
 -   Philipp Burckhardt
 -   Shubham
